@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cloud Status Dashboard
 
-## Available Scripts
+## Overview
+The **Cloud Status Dashboard** is a lightweight React application that demonstrates foundational frontend development while integrating cloud awareness. It fetches and displays system/network status information from mock APIs, highlighting how frontend applications interact with cloud infrastructure.
 
-In the project directory, you can run:
+This project bridges **cloud networking knowledge** and **basic React skills**, supporting a career focus in cloud engineering and Infrastructure as Code (Terraform).
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Responsive layout (mobile-first)
+- Basic React components and state
+- Mock data simulating cloud/network status
+- Deployment-ready for cloud platforms (AWS S3, Azure Static Web Apps, Netlify)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack
+- **Frontend:** React (functional components, hooks)
+- **Styling:** CSS (responsive layouts)
+- **Data:** Mock API
+- **Deployment:** Compatible with cloud hosting services
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Learning Outcomes / Demonstrated Skills
+- Understanding how frontend applications consume cloud services
+- Implementing responsive UI with CSS
+- Basic React skills: components, props, state, hooks
+- Preparing a frontend project for cloud deployment
+- Bridging infrastructure and application awareness
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup Instructions
+1. Clone the repository:
+```bash
+git clone https://github.com/surging-lac01/cloud-status-dashboard.git
+cd cloud-status-dashboard
+````
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Run the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open [http://localhost:3000](http://localhost:3000) to view the dashboard
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This app can be deployed to cloud platforms such as:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* **AWS S3 + CloudFront**
+* **Azure Static Web Apps**
+* **Netlify / Vercel**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Enhancements
 
-### Analyzing the Bundle Size
+* Connect to real cloud monitoring APIs (e.g., AWS CloudWatch, Azure Monitor)
+* Add authentication for secure dashboards
+* Integrate Terraform-deployed backend services
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
